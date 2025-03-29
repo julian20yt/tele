@@ -1,0 +1,67 @@
+<html><head>
+	<style type="text/css">
+		body, html{
+    position: relative;
+    margin: 0;
+    height: 100%;
+    background: #5a5a5a;
+    overflow: hidden;
+}
+@keyframes anim{
+    0%{
+        top: 28%;
+        left: 25%;
+        opacity: 0;
+    }25%{
+        opacity: 0.35;
+    }75%{
+        opacity: 0.35;
+    }100%{
+        opacity: 0;
+         top: -43%;
+        left: -25%;
+    }
+} 
+#cloudy_div{
+    opacity: 0.3;
+  mix-blend-mode: soft-light;
+  /* The image used */
+  background-image: url("https://yt3.googleusercontent.com/tm3x3uFvq7jVWaMuBBavDRhhC4PgjPeC65walzYtZzXCGSclKavU1l1GDtk1F2W11x8qtB4_=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj");
+  image-rendering: pixelated;
+  transform: scale(1.5);
+  /* Full height */
+  height: 115%;
+    width: 100%;
+  position: absolute;
+  top: -43%;
+  left: -25%;
+  bottom: 0%;
+  right: 0%;
+  /* Center and scale the image nicely */
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cloudy_anim_1{
+      animation: anim 15s linear infinite;
+      animation-delay: -2s;
+}
+.cloudy_anim_2{
+      animation: anim 25s linear infinite;
+    animation-delay: -12s;
+}
+.cloudy_anim_3{
+      animation: anim 35s linear infinite;
+    animation-delay: -23s;
+}
+	</style>
+	<title>Animated Cloudy</title>
+</head>
+<body>
+<div id="cloudy_div" class="cloudy_anim_1"></div>
+<div id="cloudy_div" class="cloudy_anim_2"></div>
+<div id="cloudy_div" class="cloudy_anim_3"></div>
+
+
+</body></html>

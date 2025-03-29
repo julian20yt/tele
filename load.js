@@ -1,0 +1,4 @@
+mw.loader.impl(function(){return["ext.fandom.ContentReviewTestModeMessages@4a4da",null,{},{"content-review-module-test-mode-disable":"Exit test mode","content-review-test-mode-enabled":"You are currently using unreviewed versions of custom JavaScript files. ","content-review-test-mode-error":"Something went wrong. Please try again later."}];});
+// Saved in localStorage at 2025-03-21T00:48:36.833Z
+//# sourceURL=https://dandys-world-robloxhorror.fandom.com/load.php?lang=en&modules=ext.fandom.ContentReviewTestModeMessages&skin=fandomdesktop&version=jbqkm
+//# sourceMappingURL=/load.php?lang=en&modules=ext.fandom.ContentReviewTestModeMessages&skin=fandomdesktop&sourcemap=1&version=jbqkm
